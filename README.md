@@ -20,6 +20,17 @@ The project follows the complete data science life cycle:
 
 ---
 
+## 📚 Dataset Source
+
+The original dataset was obtained from the UCI Machine Learning Repository:
+
+- **Title:** Diabetes 130-US hospitals for years 1999–2008 Data Set
+- **Source:** [UCI Machine Learning Repository - Diabetes Readmission Dataset](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
+
+Note: The dataset was cleaned, engineered, and modified for the purpose of model building and dashboard creation.
+---
+
+
 ## 🛠️ Tools and Technologies Used
 
 | Tool | Purpose |
