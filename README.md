@@ -12,11 +12,11 @@ Hospital readmissions are a major healthcare concern, leading to increased healt
 This project focuses on predicting whether a patient is likely to be readmitted to a hospital within 30 days, after 30 days, or not at all, based on their demographic, medical, and treatment-related features.
 
 The project follows the complete data science life cycle:
-- Data ingestion and cleaning
+- Data ingestion and cleaning using dataiku
 - Feature engineering
-- Predictive modeling
+- Predictive modeling using dataiku
 - Model evaluation
-- Business intelligence dashboarding
+- Business intelligence dashboarding using strategyOne
 
 ---
 
@@ -25,9 +25,7 @@ The project follows the complete data science life cycle:
 | Tool | Purpose |
 |:---|:---|
 | **Dataiku DSS** | Data preparation, feature engineering, model training, scoring |
-| **Python (pandas)** | Data sampling and file optimization for deployment |
 | **MicroStrategy AutoExpress** | Business Intelligence dashboard and data visualization |
-| **Jupyter Notebook (optional)** | Data verification and sampling |
 | **GitHub** | Project hosting and portfolio building |
 
 ---
@@ -35,7 +33,7 @@ The project follows the complete data science life cycle:
 ## 📦 Dataset Information
 
 - Dataset Name: **Diabetes Hospital Readmission Data**
-- Size: ~28MB initially (sampled to 14MB for BI tool compatibility)
+- Size: ~28MB
 - Records: ~100,000 patients
 - Attributes: 50+ including demographics, diagnoses, medications, hospital encounters, and readmission outcomes.
 - Target Variable: **readmitted** (`<30`, `>30`, `NO`)
@@ -68,7 +66,6 @@ New Columns:
 
 | Algorithm | Status | Notes |
 |:---|:---|:---|
-| Logistic Regression | ❌ | Training failed locally due to Mac M1 chip architecture mismatch |
 | Random Forest | ✅ | Successfully trained in Dataiku Cloud (Trial Version) |
 | Decision Tree | ✅ | Successfully trained as a backup simpler model |
 
@@ -106,34 +103,12 @@ Final dashboard PDF attached!
 
 ---
 
-## 📁 Project Folder Structure (Recommended)
-
-```
-/diabetes-readmission-prediction/
-│
-├── /data/
-│    └── diabetic_data_prepared_scored_reduced.csv
-│
-├── /images/
-│    ├── flow_screenshot.png
-│    ├── model_training_screenshot.png
-│    ├── microstrategy_dashboard.png
-│
-├── /notebooks/ (optional)
-│    └── sampling_script.ipynb
-│
-├── README.md
-├── dashboard_report.pdf (MicroStrategy dashboard export)
-```
-
----
-
 ## 📝 Final Deliverables
 
 - Cleaned and Scored Dataset
 - Trained Random Forest Model
 - Evaluation Metrics
-- Interactive BI Dashboard
+- Interactive BI Dashboard using strategyone (microstrategy)
 - GitHub Repository
 
 ---
@@ -141,7 +116,7 @@ Final dashboard PDF attached!
 ## 👤 About Me
 
 **Owaiz Majoriya**  
-Aspiring Data Scientist | Machine Learning Enthusiast | Business Intelligence Developer
+Aspiring Data Analsyst | Machine Learning Enthusiast | Business Intelligence Developer
 
 ---
 
@@ -162,11 +137,6 @@ Aspiring Data Scientist | Machine Learning Enthusiast | Business Intelligence De
   
 ✅ Full project completed end-to-end using best practices.
 
----
-
-## 🏆 Special Thanks
-
-Special thanks to Dataiku and MicroStrategy for providing free trial environments for project building.
 
 ---
 
@@ -181,12 +151,3 @@ Special thanks to Dataiku and MicroStrategy for providing free trial environment
 - Professional Project Management
 
 ---
-
-## 🔗 Links
-- [GitHub Repository] (Add Link here after you create repo)
-- [Dashboard Report PDF] (Attach in repo)
-
----
-
-## ✅ Status
-> **Project Completed: April 2025**  
